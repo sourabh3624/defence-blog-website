@@ -2,7 +2,7 @@ from flask import Flask,render_template,request
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-app=Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql://root:@localhost/blog database'
 db=SQLAlchemy(app)
