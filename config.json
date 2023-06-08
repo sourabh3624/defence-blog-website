@@ -1,0 +1,25 @@
+{
+"params":{
+
+"local_server":"True",
+"local_uri":"mysql://root:@localhost/blog database",
+"production_uri":"mysql://root:@localhost/blog database",
+"fb_url":"https://facebook.com/GeoPolitics & Defence Updates",
+"tw_url":"https://twitter.com/GeoPolitics & Defence Updates",
+"gt_url":"https://github.com/sourabh3624/defence-updates",
+"blog_name":" GeoPolitics & Defence Updates",
+"tag_line":"A Blog for GeoPolitics Viewers",
+"gmail_user":"georbainsla.36georgian@gmail.com",
+"gmail_password":"9813064510@",
+
+"about_text":"hi my nane is sourabh and i am here to post the updates on geopolitics."
+
+}
+
+
+
+
+
+
+
+}
