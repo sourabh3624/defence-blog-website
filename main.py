@@ -50,14 +50,16 @@ class Posts(db.Model):
 
 
     sno=db.Column(db.Integer,primary_key=True)
-    Title=db.Column(db.String(12),nullable=False)
+    title=db.Column(db.String(12),nullable=False)
+    tagline=db.Column(db.String(20),nullable=False)
     slug=db.Column(db.String(30),nullable=False)
-    Content=db.Column(db.String(120),nullable=False)
+    content=db.Column(db.String(120),nullable=False)
     date=db.Column(db.String(20),nullable=False)
     img_file=db.Column(db.String(20),nullable=False)
 @app.route("/")
 def home():
-    return render_template("index.html",params=params)
+    posts=Posts.query.filter_by().all()[0:params["no_of_posts"]]
+    return render_template("index.html",params=params,posts=posts)
 
 @app.route("/about")
 def about():
