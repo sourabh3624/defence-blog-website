@@ -16,7 +16,8 @@
 "no_of_posts":5,
 "login_image":"logo.svg",
 "admin_user":"Sourabh",
-"admin_password": "Sourabh3624"
+"admin_password": "Sourabh3624",
+"upload_location":"E:\\Blog project\\static"
 
 }
 
